@@ -1,0 +1,78 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 12,
+  "bottomRowBeforeCollapse": 13,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "optionLabel"
+    },
+    {
+      "key": "optionValue"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onDropdownOpen"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "wkpk4mlooh",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "select item",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 21,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 13,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 19,
+  "mobileTopRow": 6,
+  "needsErrorInfo": false,
+  "onDropdownClose": "",
+  "onDropdownOpen": "",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 13,
+  "originalTopRow": 6,
+  "parentColumnSpace": 7.26953125,
+  "parentId": "a611023t14",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 39,
+  "serverSideFiltering": false,
+  "sourceData": "{{\n    Array.isArray(getItems.data) && getItems.data.length > 0\n    ? getItems.data.map(i => ({ label: i.itemName, value: i.id }))\n    : []\n}}\n",
+  "topRow": 5,
+  "topRowBeforeCollapse": 6,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "ugljeo12v9",
+  "widgetName": "Dropdown_SelectionItem"
+}
