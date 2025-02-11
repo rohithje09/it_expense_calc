@@ -8,7 +8,7 @@
       "encodeParamsToggle": true,
       "formData": {
         "body": {
-          "data": "{\n  \"clientname\": \"{{inp_project_name.text + ''}}\",\n  \"buildingName\": \"{{ inp_Building_Name.text + '' }}\",\n  \"floor\": \"{{ inp_floor.text + '' }}\",\n  \"officeNumber\": \"{{ inp_Office_number.text + '' }}\",\n  \"totalCost\": 0,\n  \"userId\": \"{{ appsmith.store.user_id + '' }}\"\n}\n"
+          "data": "{\n  \"Clientname\": \"{{inp_project_name.text + ''}}\",\n  \"BuildingName\": \"{{ inp_Building_Name.text + '' }}\",\n  \"Floor\": \"{{ inp_floor.text + '' }}\",\n  \"OfficeNumber\": \"{{ inp_Office_number.text + '' }}\",\n  \"TotalCost\": 0,\n  \"UserId\": \"{{ appsmith.store.user_id + '' }}\"\n}\n"
         },
         "command": {
           "data": "CREATE_DOCUMENT"

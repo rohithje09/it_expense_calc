@@ -18,7 +18,6 @@ export default {
 
         let newItems = [];
 
-        // ✅ Individual Item Selection
         console.log("📌 Selected Project: ITEM");
         
         // Find the selected item details
@@ -29,26 +28,31 @@ export default {
             return;
         }
 
-        // Structure the new item
+        // Structure the new item, including `Remarks`
         newItems = [{
+					  Category: selectedProjectName,
+ Description: itemDetails.itemName || itemDetails.name || "❌ Not Found",
             Quantity_Nos: itemDetails.defaultQuantity || 1,  // Default to 1 if missing
-            Description: itemDetails.itemName || itemDetails.name || "❌ Not Found",
-            Category: selectedProjectName,
+           
+       
             Cost_INR: itemDetails.price || 0,
-            Remarks: "" // ✅ Empty string to allow user input in the table
+            Remarks: itemDetails.remarks 
         }];
 
-        // ✅ Append new items instead of replacing
+        // Append new items instead of replacing
         const updatedItems = [...(appsmith.store.selectedItems || []), ...newItems];
 
-        // ✅ Store the updated list
+        // Store the updated list
         await storeValue("selectedItems", updatedItems);
 
-        // ✅ Recalculate total cost
+        // Recalculate total cost
         const totalCost = updatedItems.reduce((sum, item) => sum + (item.Cost_INR || 0), 0);
         await storeValue("totalCost", totalCost);
 
         console.log("✅ Items Added:", updatedItems);
-        console.log("💰 Total Cost Updated:", totalCost);
+			console.log("🛠 Selected Items:", appsmith.store.selectedItems);
+
+        
+
     }
 };

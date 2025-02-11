@@ -43,7 +43,7 @@
   ],
   "shouldScrollContents": true,
   "shouldTruncate": false,
-  "text": "it expense calculator",
+  "text": "ICT Budget Builder",
   "textAlign": "LEFT",
   "textColor": "{{appsmith.theme.colors.backgroundColor}}",
   "topRow": 1,

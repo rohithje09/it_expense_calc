@@ -1,8 +1,8 @@
 {
   "gitSyncId": "6797575989175b1b0e24ed1f_2648daac-e086-49bd-9c7e-b3d9c71354c3",
-  "id": "Page2_initializeSelectedItems",
+  "id": "Page2_DownloadCSV",
   "unpublishedCollection": {
-    "name": "initializeSelectedItems",
+    "name": "DownloadCSV",
     "pageId": "Page2",
     "pluginId": "js-plugin",
     "pluginType": "JS",

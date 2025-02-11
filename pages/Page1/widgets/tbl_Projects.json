@@ -62,9 +62,6 @@
       "key": "boxShadow"
     },
     {
-      "key": "tableData"
-    },
-    {
       "key": "primaryColumns._ref.computedValue"
     },
     {
@@ -90,6 +87,9 @@
     },
     {
       "key": "primaryColumns.totalCost.computedValue"
+    },
+    {
+      "key": "tableData"
     }
   ],
   "dynamicPropertyPathList": [
@@ -98,6 +98,9 @@
     },
     {
       "key": "onRowSelected"
+    },
+    {
+      "key": "isVisibleDownload"
     }
   ],
   "dynamicTriggerPathList": [
@@ -112,7 +115,7 @@
   "isLoading": false,
   "isSortable": true,
   "isVisible": true,
-  "isVisibleDownload": true,
+  "isVisibleDownload": "true",
   "isVisibleFilters": false,
   "isVisiblePagination": true,
   "isVisibleSearch": true,
@@ -184,7 +187,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "building Name",
+      "label": "Building Name",
       "notation": "standard",
       "originalId": "buildingName",
       "sticky": "",
@@ -218,7 +221,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "client name",
+      "label": "Client name",
       "notation": "standard",
       "originalId": "clientname",
       "sticky": "",
@@ -252,7 +255,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "cost",
+      "label": "Cost",
       "notation": "standard",
       "originalId": "cost",
       "sticky": "",
@@ -286,7 +289,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "floor",
+      "label": "Floor",
       "notation": "standard",
       "originalId": "floor",
       "sticky": "",
@@ -320,7 +323,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "office Number ",
+      "label": "Office Number ",
       "notation": "standard",
       "originalId": "officeNumber",
       "sticky": "",
