@@ -57,9 +57,9 @@
       "pluginId": "firestore-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": true,
     "name": "getCategories",
     "pageId": "Page2",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": false
   }
 }

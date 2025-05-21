@@ -63,9 +63,9 @@
         "key": "formData.where.data.children[0].value"
       }
     ],
-    "executeOnLoad": true,
     "name": "getItems",
     "pageId": "Page2",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": false
   }
 }

@@ -57,9 +57,9 @@
       "pluginId": "firestore-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "Query1",
     "pageId": "Projects",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

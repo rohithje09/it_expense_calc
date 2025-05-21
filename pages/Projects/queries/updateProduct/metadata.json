@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "updateProduct",
     "pageId": "Projects",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

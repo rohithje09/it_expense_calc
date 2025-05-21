@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "DownloadCSV.generateCSV",
     "name": "generateCSV",
     "pageId": "Page2",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

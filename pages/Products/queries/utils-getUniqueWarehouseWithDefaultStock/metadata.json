@@ -30,10 +30,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "utils.getUniqueWarehouseWithDefaultStock",
     "name": "getUniqueWarehouseWithDefaultStock",
     "pageId": "Products",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

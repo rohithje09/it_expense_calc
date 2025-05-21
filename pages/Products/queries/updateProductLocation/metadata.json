@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "updateProductLocation",
     "pageId": "Products",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

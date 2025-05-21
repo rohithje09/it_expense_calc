@@ -64,9 +64,9 @@
         "key": "formData.body.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "updatecost",
     "pageId": "Page2",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

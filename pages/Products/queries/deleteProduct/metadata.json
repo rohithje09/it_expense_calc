@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": false,
     "name": "deleteProduct",
     "pageId": "Products",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

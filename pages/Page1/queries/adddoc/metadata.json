@@ -66,9 +66,9 @@
         "key": "formData.path.data"
       }
     ],
-    "executeOnLoad": false,
     "name": "adddoc",
     "pageId": "Page1",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

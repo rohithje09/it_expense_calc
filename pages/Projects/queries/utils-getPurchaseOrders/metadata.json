@@ -23,10 +23,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "utils.getPurchaseOrders",
     "name": "getPurchaseOrders",
     "pageId": "Projects",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

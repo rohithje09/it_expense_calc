@@ -23,10 +23,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "fullyQualifiedName": "utils.getAllWarehouses",
     "name": "getAllWarehouses",
     "pageId": "Projects",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

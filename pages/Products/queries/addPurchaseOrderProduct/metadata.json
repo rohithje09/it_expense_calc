@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
     "name": "addPurchaseOrderProduct",
     "pageId": "Products",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }
